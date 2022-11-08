@@ -1,0 +1,74 @@
+body{
+    background-image: url(fondopiola.gif);
+    background-position-x: 100%;
+}
+.a{
+    display: inline-block;
+}
+#b{
+
+    font-family: 'Pacifico', cursive;
+    color: azure;
+    position: absolute;
+  float: right; left: 46%;top: 27%;
+}
+#a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: azure;
+}
+#c{
+    position: relative ;
+    opacity: 85%;
+    position: fixed;
+    float: right; width: 90%;left: 4.8%;height: 90%;top: 10%;
+    text-align: center;
+}
+#d{
+    position: absolute;
+    float: right; width: 27% ;right:  37%;top: 20vh;
+}
+#playBtn{
+    position: absolute;
+    float: right; right: 70%;top: 40%;  
+    border-radius: 25%;
+    background-color: #5279a3;
+    font-family: 'Pacifico', cursive;
+}
+
+#playBtn:hover{
+      color: aliceblue;
+      opacity: 80%;
+      transform: scale(1.1);
+}
+#pauseBtn:hover{
+    color: aliceblue;
+    opacity: 80%;
+    transform: scale(1.1);
+}
+
+#pauseBtn{
+    position: absolute;
+    float: right; right: 65%;top: 40%;
+    border-radius: 25%;
+    background-color: #5279a3;
+    font-family: 'Pacifico', cursive;
+}
+#song1{
+    position: absolute;
+    color: white;
+    float: right; right: 74%;top: 38%;
+    font-size: large;
+}
+#oreo{
+    position: relative;
+    border-radius: 50%;
+    float: right;right: 46%; 
+}
+#img1{
+    position: absolute;
+    float: right;left: 17%;top: 36%;
+    width: 5%;
+}
